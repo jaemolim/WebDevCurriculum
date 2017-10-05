@@ -9,7 +9,7 @@
 		<header>
 			<!-- TODO: 상단의 회색 부분은 어떻게 처리하면 좋을까요? -->
 			<div class="wrap">
-				<img src="./img/githubLogo.png" alt="GitHub logo" title="GitHub logo" height="50px" id="githubLogo">
+				<img src="./img/githubLogo.png" alt="GitHub logo" title="GitHub logo" height="50" id="githubLogo">
 				<label>
 					<span>This repository</span>
 					<input type="text" name="search" id="search" placeholder="Search" />
@@ -22,24 +22,166 @@
 						<li><a href="#">Pricing</a></li>
 					</ul>
 				</nav>
-				<button href="#" class="header" id="signup">Sign up</button>
-				<button href="#" class="header" id="signin">Sign in</button>
+				<button class="header" id="signup" onclick="location.href='#'">Sign up</button>
+				<button class="header" id="signin" onclick="location.href='#'">Sign in</button>
 			</div>
 		</header>
 
 		<section class="main">
 			<header class="main-header">
 				<!-- TODO: 메인의 헤더 부분 -->
-				<img src="./img/"
+				<h1 id="repositoryName">
+					<img src="repository.png" alt="repository icon" title="repository icon">
+					<span>KnowRe</span>
+					/
+					<span>WebDevCurriculum</span>
+				</h1>
+				<div class="optionButtons">
+					<div class="watch">
+						<button onclick="location.href='#'">Watch</button>
+						<span class=:number>20</span>
+					</div>
+					<div class="star">
+						<button onclick="location.href='#'">Star</button>
+						<span class=:number>47</span>
+					</div>
+					<div class="fork">
+						<button onclick="location.href='#'">Fork</button>
+						<span class=:number>6</span>
+					</div>
+				</div>
 			</header>
 
 			<section class="main-detail">
 				<div>
 					<!-- TODO: 메인의 왼쪽 부분 -->
+					<h2>
+						KnowRe web development curriculum for noobs
+					</h2>
+					<div id="repositoryInfo">
+						<ul>
+							<li>
+								<span>26</span>commits
+							</li>
+							<li>
+								<span>2</span>branches
+							</li>
+							<li>
+								<span>0</span>releases
+							</li>
+							<li>
+								<span>1</span>contributor
+							</li>
+						</ul>
+					</div>
+					<div id="repositoryLinks">
+						<button id="change">Change</button>
+						<button id="branch">Branch</button>
+						<a href="#">WebDevCurriculim</a>
+						/<span>+</span>
+						<button id="showList">list</button>
+					</div>
+					<table>
+						<colgroup>
+							<col>
+							<col>
+							<col>
+						</colgroup>
+						<thead>
+							<tr>
+								<td>This branch is 5 commits ahead of master.</td>
+								<td></td>
+								<td>
+									<a href="#">Pull request</a>
+									<a href="#">Compare</a>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="#" id="rootDocument">...</a></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td><span>Kivol</span> authored 19 hours ago</td>
+								<td>&nbsp;</td>
+								<td>latest commit <span>5ead7a7a36</span></td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="folder">
+								<td>Part 0. git/<span class="link">Quest 0. Hello, git</span></td>
+								<td>Qeust 0 - Added checklist</td>
+								<td>19 hours ago</td>
+							</tr>
+							<tr class="folder">
+								<td><span class="link">old</span></td>
+								<td>New curriculum 2016 - started</td>
+								<td>5 days ago</td>
+							</tr>
+							<tr class="file">
+								<td><span class="link">LICENSE</span></td>
+								<td>New curriculum 2016 - started</td>
+								<td>5 days ago</td>
+							</tr>
+							<tr class="folder">
+								<td><span class="link">README.md</span></td>
+								<td>...</td>
+								<td>19 hours ago</td>
+							</tr>
+						</tbody>
+					</table>
+					<div id="repositoryFIle">
+						<h2>
+							README.md
+						</h2>
+						<p>
+							KnowRe web develpopment curriculum 2016
+						</p>
+					</div>
 				</div>
 
 				<aside>
 					<!-- TODO: 메인의 오른쪽 메뉴 부분 -->
+					<ul id="sideMenu">
+						<li>
+							<a href="#">Code</a>
+						</li>
+						<li>
+							<a href="#">Issue</a>
+							<span>0</span>
+						</li>
+						<li>
+							<a href="#">Pull requests</a>
+							<span>0</span>
+						</li>
+						<li>
+							<a href="#">Pulse</a>
+						</li>
+						<li>
+							<a href="#">Graphs</a>
+						</li>
+					</ul>
+					<section class="repositoryHTTPS">
+						<h2><span>HTTPS</span> clone URL</h2>
+						<label>
+							<input type="text" placeholder="https://github.com">
+							<image src="./img/copyButton.png">
+						</label>
+						<p>
+							You can clone with <a href="#">HTTPS</a> or <a href="#">Subversion</a>.
+							<img src="./img/questionMark.png">
+						</p>
+					</section>
+					<section id="download_button">
+						<a href="#">
+							<img src="./img/cloneButton.png" alt="clone button" title="clone button">
+							Clone in Desktop
+						</a>
+						<a href="#">
+							<img src="./img/download_button.png" alt="download button" title="download button">
+							Download ZIP
+						</a>
+					</section>
 				</aside>
 			</section>
 		</section>
