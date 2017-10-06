@@ -24,7 +24,7 @@ aside {
 	/* TODO: 이 곳을 채우세요! */
 	position: absolute;
 	left: 200px;
-	/*top: 0;*/
+	top: 0;
 	height: 100%;
 	overflow: hidden;
 }
