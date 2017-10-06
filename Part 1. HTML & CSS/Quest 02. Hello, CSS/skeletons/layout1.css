@@ -11,9 +11,20 @@ body {
 aside {
 	background-color: pink;
 	/* TODO: 이 곳을 채우세요! */
+	position: relative;
+	/*left: 0;*/
+	/*top: 0;*/
+	width: 200px;
+	height: 100%;
+	overflow: hidden;
 }
 
 .main {
 	background-color: skyblue;
 	/* TODO: 이 곳을 채우세요! */
+	position: absolute;
+	left: 200px;
+	/*top: 0;*/
+	height: 100%;
+	overflow: hidden;
 }
